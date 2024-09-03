@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun calculateResult() { //logic perhitungan
+    private fun calculateResult() { //logic perhitungann
         if (input.isNotEmpty() && operator.isNotEmpty()) {
             val operands = input.split(" $operator ")
             if (operands.size == 2) {
